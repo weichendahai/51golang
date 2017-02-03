@@ -30,3 +30,18 @@ curl localhost:8005/simple/server/get?key=hello
 curl -d "" localhost:8005/simple/server/post
 curl --request PUT localhost:8005/simple/server/put
 curl --request DELETE localhost:8005/simple/server/delete
+
+#git
+
+…or create a new repository on the command line
+
+echo "# 51golang" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/weichendahai/51golang.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/weichendahai/51golang.git
+git push -u origin master
